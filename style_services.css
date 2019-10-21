@@ -1,0 +1,89 @@
+/* LARGE SCREEN */
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(images/help.png);
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+}
+ body{
+    font-weight: 900;
+}
+.brand-logo{
+    margin-top: 10px;
+    margin-left: 4%;
+}
+header{
+    font-family: Alternate Gothic;
+    font-weight: 900;
+}
+
+.exp{
+    border-radius: 15px
+}
+.p-text{
+    font-weight: bolder;
+    font-size: 170%;
+}
+
+.card{
+    font-family:Gabriel Sans;
+}
+
+.active{
+    margin-top: 5px;
+
+}
+
+
+
+.foot{
+    text-align: center;
+    font-size: 15px !important;
+    font-weight: bold;
+}
+
+ .foter{
+    font-family: 'lobster';
+    font-size:19.5px !important;
+} 
+
+
+
+/* SMALL SCREEN */
+@media only screen and (max-width: 600px) { 
+    header{
+        background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url(images/help.png);
+        background-position: center;
+        background-color: black;
+        background-size: cover;
+        height: 83vh;
+    }
+
+    .menu{
+        margin-left: 210%;
+    }
+
+    body{
+        font-weight: 900;
+    }
+
+    header{
+        font-family: Alternate Gothic;
+        font-weight: 900;
+    }
+
+
+    .foot{
+        text-align: center;
+        font-size: 15px !important;
+        font-weight: bold;
+    }
+    
+     .foter{
+        font-family: 'lobster';
+        font-size:19.5px !important;
+    } 
+
+
+  }

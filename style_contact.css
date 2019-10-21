@@ -1,0 +1,100 @@
+/* LARGE SCREEN */
+header{
+    background-image:url(images/need.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+ body{
+    font-weight: 900;
+}
+
+#contact{
+    font-family:Gabriel Sans;
+}
+.brand-logo{
+    margin-top: 10px;
+    margin-left: 4%;
+}
+header{
+    font-family: Alternate Gothic;
+    font-weight: 900;
+}
+
+.side_nav{
+    margin: 10px 20px;
+}
+.active{
+    margin-top: 5px;
+
+}
+
+.p-text{
+    font-weight: bolder;
+    font-size: 170%;
+}
+
+.foot{
+    text-align: center;
+    font-size: 15px !important;
+    font-weight: bold;
+}
+
+ .foter{
+    font-family: 'lobster';
+    font-size:19.5px !important;
+} 
+
+
+
+/* SMALL SCREEN */
+@media only screen and (max-width: 600px) { 
+    header{
+        background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url(images/contact-min.jpg);
+        background-position: center;
+        background-color: black;
+        background-size: cover;
+        height: 83vh;
+    }
+
+    .menu{
+        margin-left: 200%;
+    }
+
+    body{
+        font-weight: 900;
+    }
+
+    header{
+        font-family: Alternate Gothic;
+        font-weight: 900;
+    }
+
+    #contact{
+        font-family:Gabriel Sans;
+    }
+
+
+    .foot{
+        text-align: center;
+        font-size: 15px !important;
+        font-weight: bold;
+    }
+    
+     .foter{
+        font-family: 'lobster';
+        font-size:19.5px !important;
+    } 
+
+   
+
+    .p_text{
+        margin-top: -45%;
+        font-weight: bolder;
+        color: red;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+
+
+  }
+
